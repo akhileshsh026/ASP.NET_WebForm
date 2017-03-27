@@ -79,6 +79,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="TextBox_GenralProp.aspx" />
+    <Content Include="TxtBox_Mode_Test.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -106,6 +107,13 @@
     </Compile>
     <Compile Include="TextBox_GenralProp.aspx.designer.cs">
       <DependentUpon>TextBox_GenralProp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TxtBox_Mode_Test.aspx.cs">
+      <DependentUpon>TxtBox_Mode_Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TxtBox_Mode_Test.aspx.designer.cs">
+      <DependentUpon>TxtBox_Mode_Test.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

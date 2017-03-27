@@ -7,8 +7,8 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
+    <form id="form1" align="center" runat="server">
+    <div align="center">
         <asp:label ID="label1" runat="server" Text="Enter Text :" ></asp:label>
         </br>
         <asp:TextBox ID="textbox1" runat="server" AutoPostBack="true" OnTextChanged="textbox1_TextChanged" ></asp:TextBox> &nbsp;
