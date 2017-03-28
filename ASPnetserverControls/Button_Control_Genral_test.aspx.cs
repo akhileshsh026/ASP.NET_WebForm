@@ -13,8 +13,14 @@ namespace ASPnetserverControls
         {
             Mybutton.Click += new EventHandler(Mybutton_click);
             BtnOnClientclick.Command += new CommandEventHandler(BtnOnClientclick_click);
+            BtnOnClientclickExtended.Command += new CommandEventHandler(BtnOnClientclickExtended_click);
             
 
+        }
+
+        protected void BtnOnClientclickExtended_click(Object sender , CommandEventArgs e)
+        {
+            Response.Write("programed response from .cs file");
         }
 
        protected void BtnOnClientclick_click(object sender , CommandEventArgs e)
@@ -36,6 +42,11 @@ namespace ASPnetserverControls
         {
             Response.Write("the command name is : " + e.CommandName + "</b>");
             Response.Write(" </br> The commnd Argument is </b> :"+e.CommandArgument+"</b>");
+        }
+
+        protected void BtnOnClientclickExtended_Click(object sender, EventArgs e)
+        {
+            lbl_Message.Text = "label click";
         }
     }
 }
