@@ -12,11 +12,15 @@ namespace ASPnetserverControls
         protected void Page_Load(object sender, EventArgs e)
         {
             Mybutton.Click += new EventHandler(Mybutton_click);
+            BtnOnClientclick.Command += new CommandEventHandler(BtnOnClientclick_click);
             
 
         }
 
-    
+       protected void BtnOnClientclick_click(object sender , CommandEventArgs e)
+        {
+            Response.Write("welcome to ASP.Net application");
+        }
 
         //protected void Mybutton_Click(object sender, EventArgs e)
         //{
