@@ -71,6 +71,7 @@
     <Content Include="Button_PostBack_UrL_Prop.aspx" />
     <Content Include="CheckBox_Control.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="ImageSource\cheda.JPG" />
     <Content Include="Labal_Control.aspx" />
     <Content Include="Label_Control1.aspx" />
     <Content Include="LinkButton_All5_funtion.aspx" />
