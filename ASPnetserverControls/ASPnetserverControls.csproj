@@ -66,9 +66,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Button_Alert_Message_Box.aspx" />
     <Content Include="Button_Control_Genral_test.aspx" />
+    <Content Include="Button_PostBack_UrL_Prop.aspx" />
+    <Content Include="CheckBox_Control.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="Labal_Control.aspx" />
     <Content Include="Label_Control1.aspx" />
+    <Content Include="LinkButton_All5_funtion.aspx" />
+    <Content Include="Mutli_Btn_Single_Event.aspx" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -84,12 +90,40 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Button_Alert_Message_Box.aspx.cs">
+      <DependentUpon>Button_Alert_Message_Box.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Button_Alert_Message_Box.aspx.designer.cs">
+      <DependentUpon>Button_Alert_Message_Box.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Button_Control_Genral_test.aspx.cs">
       <DependentUpon>Button_Control_Genral_test.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Button_Control_Genral_test.aspx.designer.cs">
       <DependentUpon>Button_Control_Genral_test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Button_PostBack_UrL_Prop.aspx.cs">
+      <DependentUpon>Button_PostBack_UrL_Prop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Button_PostBack_UrL_Prop.aspx.designer.cs">
+      <DependentUpon>Button_PostBack_UrL_Prop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckBox_Control.aspx.cs">
+      <DependentUpon>CheckBox_Control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckBox_Control.aspx.designer.cs">
+      <DependentUpon>CheckBox_Control.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -107,6 +141,20 @@
     </Compile>
     <Compile Include="Label_Control1.aspx.designer.cs">
       <DependentUpon>Label_Control1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LinkButton_All5_funtion.aspx.cs">
+      <DependentUpon>LinkButton_All5_funtion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LinkButton_All5_funtion.aspx.designer.cs">
+      <DependentUpon>LinkButton_All5_funtion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mutli_Btn_Single_Event.aspx.cs">
+      <DependentUpon>Mutli_Btn_Single_Event.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mutli_Btn_Single_Event.aspx.designer.cs">
+      <DependentUpon>Mutli_Btn_Single_Event.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TextBox_GenralProp.aspx.cs">
