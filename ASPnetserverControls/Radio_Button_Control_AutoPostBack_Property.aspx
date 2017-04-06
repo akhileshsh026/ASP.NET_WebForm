@@ -18,10 +18,49 @@
         </asp:Panel>
         <br />
         <asp:Panel ID="Panel2" runat="server" Visible="false" BorderStyle="Dashed" BorderWidth="2px" BorderColor="WhiteSmoke">
-            <h3> content and other controls associated to first Radiobutton Control.</h3>
+          <marquee behavior="slide" direction="left">      <h3> content and other controls associated to Second Radiobutton Control.</h3>
+       </marquee>
+             </asp:Panel>
+        <br />
+        <br />
+        <asp:Panel ID="Panel3" runat="server" HorizontalAlign="Right" >
+            <marquee  behavior="scroll" direction="down" > This  is  the info for the customers who bought bottels in the Railway Stations.
+                <p> jhgjh
+                    kjhjkjh
+                    kjjhk
+                    kkj
+                    kjjhkj
+                    kjhkjh
+
+                    <ol>
+                        <li>hg</li>
+                        <li>jh</li>
+                        <li>fgd</li>
+                        <li>hdf</li>
+                    </ol>
+                </p>
+            </marquee>
         </asp:Panel>
         <br />
+        <br />
+        <asp:Panel ID="Panel4" runat="server" HorizontalAlign="Left" AccessKey="b" BorderColor="Yellow" >
+            <marquee  behavior="alternate" > This  is  the info for the customers who bought bottels in the Railway Stations.
+                <p> jhgjh
+                    kjhjkjh
+                    kjjhk
+                    kkj
+                    kjjhkj
+                    kjhkjh
 
+                    <ol>
+                        <li>hg</li>
+                        <li>jh</li>
+                        <li>fgd</li>
+                        <li>hdf</li>
+                    </ol>
+                </p>
+            </marquee>
+        </asp:Panel>
     </div>
     </form>
 </body>
