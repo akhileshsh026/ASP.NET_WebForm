@@ -49,5 +49,18 @@ namespace ASPnetserverControls
                 lblResult.Text = "<b style='color:red'> No option Selcted </b>";
             }
         }
+
+        protected void chkSelect_CheckedChanged(object sender , EventArgs e)
+        {
+            foreach (Control control in Panel2.Controls)
+            {
+                if(control is CheckBox)
+                {
+                   // if( ((CheckBox)(control)).Text=="Item 1" || ((CheckBox)(control)).Text == "Item 5") to select only 1 and 5 or upto ur choice.
+                    ((CheckBox)(control)).Checked = chkSelect.Checked;
+                }
+            }
+
+        }
     }
 }

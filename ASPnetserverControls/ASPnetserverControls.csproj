@@ -70,8 +70,10 @@
     <Content Include="Button_Control_Genral_test.aspx" />
     <Content Include="Button_PostBack_UrL_Prop.aspx" />
     <Content Include="CheckBox_Control.aspx" />
+    <Content Include="CheckBox_Control_WithJS.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="ImageSource\cheda.JPG" />
+    <Content Include="JS files\CheckBox_Control_WithJS.js" />
     <Content Include="Labal_Control.aspx" />
     <Content Include="Label_Control1.aspx" />
     <Content Include="LinkButton_All5_funtion.aspx" />
@@ -86,6 +88,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Radio_Button_Control.aspx" />
+    <Content Include="Radio_Button_Control_AutoPostBack_Property.aspx" />
+    <Content Include="Radio_Button_Control_CheckedndGroupName_Prop.aspx" />
+    <Content Include="Radio_Button_Control_OnChecked_Changed_Event.aspx" />
     <Content Include="TextBox_GenralProp.aspx" />
     <Content Include="TxtBox_Mode_Test.aspx" />
     <Content Include="Web.config" />
@@ -118,6 +124,13 @@
     </Compile>
     <Compile Include="CheckBox_Control.aspx.designer.cs">
       <DependentUpon>CheckBox_Control.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckBox_Control_WithJS.aspx.cs">
+      <DependentUpon>CheckBox_Control_WithJS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckBox_Control_WithJS.aspx.designer.cs">
+      <DependentUpon>CheckBox_Control_WithJS.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -158,6 +171,34 @@
       <DependentUpon>Mutli_Btn_Single_Event.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Radio_Button_Control.aspx.cs">
+      <DependentUpon>Radio_Button_Control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Radio_Button_Control.aspx.designer.cs">
+      <DependentUpon>Radio_Button_Control.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Radio_Button_Control_AutoPostBack_Property.aspx.cs">
+      <DependentUpon>Radio_Button_Control_AutoPostBack_Property.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Radio_Button_Control_AutoPostBack_Property.aspx.designer.cs">
+      <DependentUpon>Radio_Button_Control_AutoPostBack_Property.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Radio_Button_Control_CheckedndGroupName_Prop.aspx.cs">
+      <DependentUpon>Radio_Button_Control_CheckedndGroupName_Prop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Radio_Button_Control_CheckedndGroupName_Prop.aspx.designer.cs">
+      <DependentUpon>Radio_Button_Control_CheckedndGroupName_Prop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Radio_Button_Control_OnChecked_Changed_Event.aspx.cs">
+      <DependentUpon>Radio_Button_Control_OnChecked_Changed_Event.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Radio_Button_Control_OnChecked_Changed_Event.aspx.designer.cs">
+      <DependentUpon>Radio_Button_Control_OnChecked_Changed_Event.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TextBox_GenralProp.aspx.cs">
       <DependentUpon>TextBox_GenralProp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

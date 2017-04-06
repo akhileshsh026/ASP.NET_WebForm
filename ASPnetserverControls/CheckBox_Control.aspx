@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Check Box Control</title>
 </head>
 <body>
     <form id="form1" runat="server" style="background-color:antiquewhite">
@@ -48,6 +48,29 @@
             <br />
             <asp:Label ID="lblResult" runat="server" />
 
+        </div>
+
+        <hr />
+        <hr />
+
+        <div id="Checkbox_with_c#">
+            <h3>ASP.Net checkbox multiple selection to check all using C#</h3>
+            <!-- in case of code behind we have to make autopostback to true -->
+            <asp:CheckBox ID="chkSelect" runat="server" Text="Select All" AutoPostBack="True" OnCheckedChanged="chkSelect_CheckedChanged" />
+            <br />
+            <br />
+            <asp:Panel ID="Panel2" runat="server">
+            <asp:CheckBox ID="CheckBox7" runat="server" Text="Item 1"  />  
+            <br />
+            <asp:CheckBox ID="CheckBox8" runat="server" Text="Item 2"  />
+            <br />
+            <asp:CheckBox ID="CheckBox9" runat="server" Text="Item 3"  />
+            <br />
+            <asp:CheckBox ID="CheckBox10" runat="server" Text="Item 4" />
+            <br />
+            <asp:CheckBox ID="CheckBox11" runat="server" Text="Item 5" />
+            <br /> 
+            </asp:Panel>
         </div>
 
 
