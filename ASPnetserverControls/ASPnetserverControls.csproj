@@ -71,8 +71,13 @@
     <Content Include="Button_PostBack_UrL_Prop.aspx" />
     <Content Include="CheckBox_Control.aspx" />
     <Content Include="CheckBox_Control_WithJS.aspx" />
+    <Content Include="Css files\Drop_Down_List_Control.css" />
     <Content Include="Css files\RadioButton_Style_Sheet.css" />
+    <Content Include="DDL_AutoPostBack_Property.aspx" />
+    <Content Include="DDL_OnselItemIndChang__Property.aspx" />
+    <Content Include="DDL_populate_items_Property.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="DropDownList_Control.aspx" />
     <Content Include="ImageSource\cheda.JPG" />
     <Content Include="JS files\CheckBox_Control_WithJS.js" />
     <Content Include="Labal_Control.aspx" />
@@ -133,12 +138,40 @@
     <Compile Include="CheckBox_Control_WithJS.aspx.designer.cs">
       <DependentUpon>CheckBox_Control_WithJS.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DDL_AutoPostBack_Property.aspx.cs">
+      <DependentUpon>DDL_AutoPostBack_Property.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DDL_AutoPostBack_Property.aspx.designer.cs">
+      <DependentUpon>DDL_AutoPostBack_Property.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DDL_OnselItemIndChang__Property.aspx.cs">
+      <DependentUpon>DDL_OnselItemIndChang__Property.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DDL_OnselItemIndChang__Property.aspx.designer.cs">
+      <DependentUpon>DDL_OnselItemIndChang__Property.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DDL_populate_items_Property.aspx.cs">
+      <DependentUpon>DDL_populate_items_Property.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DDL_populate_items_Property.aspx.designer.cs">
+      <DependentUpon>DDL_populate_items_Property.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DropDownList_Control.aspx.cs">
+      <DependentUpon>DropDownList_Control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DropDownList_Control.aspx.designer.cs">
+      <DependentUpon>DropDownList_Control.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
